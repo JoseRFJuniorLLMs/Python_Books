@@ -1,0 +1,75 @@
+
+AWS:
+     Amazon RDS SQL
+     DynamoDB
+	 Neptune Grapho
+	 DocumentDB o MongoDB
+	
+	 Kinises (Streaming)
+	 
+	 S3 DATA LAKE
+
+GCP:
+	Cloud SQL
+	Firestore NoSQL 
+    BigQuery DW
+	Cloud Bigtable NoSQL 
+	Cloud Datastore NoSQL
+	
+	Cloud Storage (Bucket) DATA LAKE
+	
+Azure:
+	  Cosmos DB
+	  SQL Server
+	  Azure Synapse Analytics DW
+	  
+	  Azure Data Lake Storage
+	  
+
+Terraform:(CDK, OPENTOFU)
+Terraform, Hashicorp  mudou a licenca, opencofu.
+
+	terraform init: Inicializa um novo ou existente diretório de trabalho do Terraform, baixando e instalando os plugins necessários.
+	terraform plan: Cria um plano de execução, mostrando quais ações o Terraform executará para alterar a infraestrutura e corresponder à sua configuração.
+	terraform apply: Aplica as alterações necessárias para atingir o estado desejado da configuração, criando, atualizando ou excluindo recursos conforme necessário.
+	terraform destroy: Destroi a infraestrutura gerenciada pelo Terraform, efetivamente excluindo todos os recursos que foram criados.
+	terraform validate: Valida os arquivos de configuração no diretório atual, verificando erros de sintaxe e outros problemas.
+	terraform fmt: Reformula os arquivos de configuração do Terraform para um formato e estilo canônicos.
+	terraform get: Baixa e instala módulos especificados no módulo raiz.
+	terraform output: Imprime as saídas de uma configuração do Terraform.
+	terraform state: Gerencia os arquivos de estado do Terraform, permitindo que você inspecione, modifique e migre o estado.
+	terraform refresh: Atualiza o arquivo de estado para corresponder aos recursos do mundo real que o Terraform está gerenciando.
+	terraform version: Imprime a versão do Terraform.
+
+
+CloudFormation:  JSON (JavaScript Object Notation) ou YAML (YAML Ain't Markup Language)
+
+==========================================================================
+ECOSISTEMA:
+Kubernetes , PROMETEUS, LYVERNO POLICY, TRIVY, LETS ENCRYPT, SETMANAGED
+==========================================================================
+
+===================================================================================================================
+KUBECTL 
+Kubernetes: Google 2014: Contêineres, Clusters(nodes),  -o YAML
+						 Pods(coleção de um ou mais contêineres), 
+						 Serviços (conjunto lógico de pods e uma política de acesso a esses pods),
+						 StatefulSets ( exigem armazenamento persistente )
+						 Namespaces (ambientes virtuais)
+						 Ingress Controllers (gerenciam o tráfego de entrada externo para os serviços Kubernetes)
+===================================================================================================================	
+La seguridad en la nube:
+						Modelo de Responsabilidad Compartida
+						Autenticación y Autorización (MFA)
+						Cifrado de Datos: reposo, tránsito
+						Gestión de Claves
+						Monitoreo y Auditoría
+						Seguridad de Red:   Control de acceso (ACL) y reglas de firewall 
+											Controle de Acesso Baseado em Papéis (RBAC)
+											Acesso Baseado em Usuários e Grupos
+											
+						Gestión de Identidades y Accesos (IAM)
+						Resiliencia y Recuperación de Desastres
+						
+						recursos <----------
+						
